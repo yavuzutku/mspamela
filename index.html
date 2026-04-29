@@ -513,13 +513,18 @@ function saveLearnedSet(s) {
 }
 
 // ── Daily word selection ─────────────────────────────────
-// Based on today's date string → deterministic index for the day
+// Gün 0 → kelime 1-2-3, Gün 1 → kelime 4-5-6, ...
+// Başlangıç tarihinden bugüne kaç gün geçtiğini hesaplar.
+// Kesin, sıralı ve tüm kullanıcılara aynı sonucu verir.
+const DAY_ZERO = new Date('2025-01-01'); // ← başlangıç tarihi (değiştirme)
+
 function todayIndex(total) {
-  const d   = new Date();
-  const key = `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
-  let hash  = 0;
-  for (const c of key) hash = (hash * 31 + c.charCodeAt(0)) % total;
-  return Math.max(0, hash - (hash % 3)); // align to multiple of 3
+  const now      = new Date();
+  // Saat farkından etkilenmemek için sadece tarihi al
+  const today    = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const dayCount = Math.floor((today - DAY_ZERO) / (1000 * 60 * 60 * 24));
+  // 3'erli bloklar halinde ilerle, listeyi tüketince başa dön
+  return ((dayCount * 3) % total);
 }
 
 // ── Date pill ────────────────────────────────────────────
