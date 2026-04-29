@@ -1,0 +1,2266 @@
+[
+  {
+    "id": 1,
+    "turkish": "ben",
+    "english": "I",
+    "category": "Temel Kelimeler",
+    "example_tr": "Ben bir öğrenciyim.",
+    "example_en": "I am a student."
+  },
+  {
+    "id": 2,
+    "turkish": "sen",
+    "english": "you",
+    "category": "Temel Kelimeler",
+    "example_tr": "Sen çok güzel konuşuyorsun.",
+    "example_en": "You speak very beautifully."
+  },
+  {
+    "id": 3,
+    "turkish": "o",
+    "english": "he / she / it",
+    "category": "Temel Kelimeler",
+    "example_tr": "O doktor mu?",
+    "example_en": "Is he/she a doctor?"
+  },
+  {
+    "id": 4,
+    "turkish": "biz",
+    "english": "we",
+    "category": "Temel Kelimeler",
+    "example_tr": "Biz birlikte çalışıyoruz.",
+    "example_en": "We are working together."
+  },
+  {
+    "id": 5,
+    "turkish": "siz",
+    "english": "you (plural)",
+    "category": "Temel Kelimeler",
+    "example_tr": "Siz nerelisiniz?",
+    "example_en": "Where are you (all) from?"
+  },
+  {
+    "id": 6,
+    "turkish": "onlar",
+    "english": "they",
+    "category": "Temel Kelimeler",
+    "example_tr": "Onlar şimdi evde.",
+    "example_en": "They are at home now."
+  },
+  {
+    "id": 7,
+    "turkish": "bu",
+    "english": "this",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bu benim kitabım.",
+    "example_en": "This is my book."
+  },
+  {
+    "id": 8,
+    "turkish": "şu",
+    "english": "that",
+    "category": "Temel Kelimeler",
+    "example_tr": "Şu çanta çok güzel.",
+    "example_en": "That bag is very beautiful."
+  },
+  {
+    "id": 9,
+    "turkish": "ne",
+    "english": "what",
+    "category": "Temel Kelimeler",
+    "example_tr": "Ne istiyorsun?",
+    "example_en": "What do you want?"
+  },
+  {
+    "id": 10,
+    "turkish": "kim",
+    "english": "who",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bu adam kim?",
+    "example_en": "Who is this man?"
+  },
+  {
+    "id": 11,
+    "turkish": "nerede",
+    "english": "where",
+    "category": "Temel Kelimeler",
+    "example_tr": "Okul nerede?",
+    "example_en": "Where is the school?"
+  },
+  {
+    "id": 12,
+    "turkish": "neden",
+    "english": "why",
+    "category": "Temel Kelimeler",
+    "example_tr": "Neden geç kaldın?",
+    "example_en": "Why were you late?"
+  },
+  {
+    "id": 13,
+    "turkish": "nasıl",
+    "english": "how",
+    "category": "Temel Kelimeler",
+    "example_tr": "Nasılsın?",
+    "example_en": "How are you?"
+  },
+  {
+    "id": 14,
+    "turkish": "evet",
+    "english": "yes",
+    "category": "Temel Kelimeler",
+    "example_tr": "Evet, anlıyorum.",
+    "example_en": "Yes, I understand."
+  },
+  {
+    "id": 15,
+    "turkish": "hayır",
+    "english": "no",
+    "category": "Temel Kelimeler",
+    "example_tr": "Hayır, teşekkür ederim.",
+    "example_en": "No, thank you."
+  },
+  {
+    "id": 16,
+    "turkish": "var",
+    "english": "there is",
+    "category": "Temel Kelimeler",
+    "example_tr": "Evde ekmek var.",
+    "example_en": "There is bread at home."
+  },
+  {
+    "id": 17,
+    "turkish": "yok",
+    "english": "there is not",
+    "category": "Temel Kelimeler",
+    "example_tr": "Markette süt yok.",
+    "example_en": "There is no milk at the market."
+  },
+  {
+    "id": 18,
+    "turkish": "gel",
+    "english": "come",
+    "category": "Temel Kelimeler",
+    "example_tr": "Buraya gel, seni görmek istiyorum.",
+    "example_en": "Come here, I want to see you."
+  },
+  {
+    "id": 19,
+    "turkish": "git",
+    "english": "go",
+    "category": "Temel Kelimeler",
+    "example_tr": "Şimdi git, geç kalıyorsun.",
+    "example_en": "Go now, you are getting late."
+  },
+  {
+    "id": 20,
+    "turkish": "yap",
+    "english": "do / make",
+    "category": "Temel Kelimeler",
+    "example_tr": "Ödevini yap.",
+    "example_en": "Do your homework."
+  },
+  {
+    "id": 21,
+    "turkish": "al",
+    "english": "take",
+    "category": "Temel Kelimeler",
+    "example_tr": "Çantanı al ve git.",
+    "example_en": "Take your bag and go."
+  },
+  {
+    "id": 22,
+    "turkish": "ver",
+    "english": "give",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bana kalemi ver.",
+    "example_en": "Give me the pen."
+  },
+  {
+    "id": 23,
+    "turkish": "gör",
+    "english": "see",
+    "category": "Temel Kelimeler",
+    "example_tr": "Oradaki tabelayı gör.",
+    "example_en": "See the sign over there."
+  },
+  {
+    "id": 24,
+    "turkish": "bil",
+    "english": "know",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bu sorunun cevabını bil.",
+    "example_en": "Know the answer to this question."
+  },
+  {
+    "id": 25,
+    "turkish": "sev",
+    "english": "love",
+    "category": "Temel Kelimeler",
+    "example_tr": "Ailenizi sevin.",
+    "example_en": "Love your family."
+  },
+  {
+    "id": 26,
+    "turkish": "iste",
+    "english": "want",
+    "category": "Temel Kelimeler",
+    "example_tr": "Ne istediğini söyle.",
+    "example_en": "Say what you want."
+  },
+  {
+    "id": 27,
+    "turkish": "çalış",
+    "english": "work",
+    "category": "Temel Kelimeler",
+    "example_tr": "Her gün düzenli çalış.",
+    "example_en": "Work regularly every day."
+  },
+  {
+    "id": 28,
+    "turkish": "konuş",
+    "english": "speak",
+    "category": "Temel Kelimeler",
+    "example_tr": "Lütfen yavaş konuş.",
+    "example_en": "Please speak slowly."
+  },
+  {
+    "id": 29,
+    "turkish": "dinle",
+    "english": "listen",
+    "category": "Temel Kelimeler",
+    "example_tr": "Öğretmeni dikkatli dinle.",
+    "example_en": "Listen to the teacher carefully."
+  },
+  {
+    "id": 30,
+    "turkish": "yaz",
+    "english": "write",
+    "category": "Temel Kelimeler",
+    "example_tr": "Adını buraya yaz.",
+    "example_en": "Write your name here."
+  },
+  {
+    "id": 31,
+    "turkish": "oku",
+    "english": "read",
+    "category": "Temel Kelimeler",
+    "example_tr": "Her gün bir kitap oku.",
+    "example_en": "Read a book every day."
+  },
+  {
+    "id": 32,
+    "turkish": "aç",
+    "english": "open",
+    "category": "Temel Kelimeler",
+    "example_tr": "Pencereyi aç, hava çok sıcak.",
+    "example_en": "Open the window, it's very hot."
+  },
+  {
+    "id": 33,
+    "turkish": "kapat",
+    "english": "close",
+    "category": "Temel Kelimeler",
+    "example_tr": "Kapıyı kapat lütfen.",
+    "example_en": "Please close the door."
+  },
+  {
+    "id": 34,
+    "turkish": "başla",
+    "english": "start",
+    "category": "Temel Kelimeler",
+    "example_tr": "Derse şimdi başla.",
+    "example_en": "Start the lesson now."
+  },
+  {
+    "id": 35,
+    "turkish": "bitir",
+    "english": "finish",
+    "category": "Temel Kelimeler",
+    "example_tr": "Yemeğini bitir.",
+    "example_en": "Finish your food."
+  },
+  {
+    "id": 36,
+    "turkish": "yaşa",
+    "english": "live",
+    "category": "Temel Kelimeler",
+    "example_tr": "İstanbul'da yaşa ve tadını çıkar.",
+    "example_en": "Live in Istanbul and enjoy it."
+  },
+  {
+    "id": 37,
+    "turkish": "kal",
+    "english": "stay",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bu gece burada kal.",
+    "example_en": "Stay here tonight."
+  },
+  {
+    "id": 38,
+    "turkish": "bul",
+    "english": "find",
+    "category": "Temel Kelimeler",
+    "example_tr": "Anahtarını bul.",
+    "example_en": "Find your key."
+  },
+  {
+    "id": 39,
+    "turkish": "kaybet",
+    "english": "lose",
+    "category": "Temel Kelimeler",
+    "example_tr": "Cüzdanını kaybetme.",
+    "example_en": "Don't lose your wallet."
+  },
+  {
+    "id": 40,
+    "turkish": "bekle",
+    "english": "wait",
+    "category": "Temel Kelimeler",
+    "example_tr": "Biraz bekle, geliyorum.",
+    "example_en": "Wait a bit, I'm coming."
+  },
+  {
+    "id": 41,
+    "turkish": "sor",
+    "english": "ask",
+    "category": "Temel Kelimeler",
+    "example_tr": "Anlamadığında sor.",
+    "example_en": "Ask when you don't understand."
+  },
+  {
+    "id": 42,
+    "turkish": "cevap",
+    "english": "answer",
+    "category": "Temel Kelimeler",
+    "example_tr": "Sorunun cevabını biliyorum.",
+    "example_en": "I know the answer to the question."
+  },
+  {
+    "id": 43,
+    "turkish": "zaman",
+    "english": "time",
+    "category": "Temel Kelimeler",
+    "example_tr": "Zamanı iyi kullan.",
+    "example_en": "Use your time wisely."
+  },
+  {
+    "id": 44,
+    "turkish": "gün",
+    "english": "day",
+    "category": "Temel Kelimeler",
+    "example_tr": "Her gün spor yapıyorum.",
+    "example_en": "I exercise every day."
+  },
+  {
+    "id": 45,
+    "turkish": "hafta",
+    "english": "week",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bu hafta çok meşgulüm.",
+    "example_en": "I am very busy this week."
+  },
+  {
+    "id": 46,
+    "turkish": "ay",
+    "english": "month",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bu ay tatile gidiyoruz.",
+    "example_en": "We are going on vacation this month."
+  },
+  {
+    "id": 47,
+    "turkish": "yıl",
+    "english": "year",
+    "category": "Temel Kelimeler",
+    "example_tr": "Geçen yıl İngiltere'deydim.",
+    "example_en": "I was in England last year."
+  },
+  {
+    "id": 48,
+    "turkish": "saat",
+    "english": "hour / clock",
+    "category": "Temel Kelimeler",
+    "example_tr": "Saat kaç?",
+    "example_en": "What time is it?"
+  },
+  {
+    "id": 49,
+    "turkish": "dakika",
+    "english": "minute",
+    "category": "Temel Kelimeler",
+    "example_tr": "On dakika bekledim.",
+    "example_en": "I waited ten minutes."
+  },
+  {
+    "id": 50,
+    "turkish": "şimdi",
+    "english": "now",
+    "category": "Temel Kelimeler",
+    "example_tr": "Şimdi hazır mısın?",
+    "example_en": "Are you ready now?"
+  },
+  {
+    "id": 51,
+    "turkish": "sonra",
+    "english": "later / after",
+    "category": "Temel Kelimeler",
+    "example_tr": "Sonra görüşürüz.",
+    "example_en": "See you later."
+  },
+  {
+    "id": 52,
+    "turkish": "önce",
+    "english": "before / first",
+    "category": "Temel Kelimeler",
+    "example_tr": "Önce ellerini yıka.",
+    "example_en": "First, wash your hands."
+  },
+  {
+    "id": 53,
+    "turkish": "bugün",
+    "english": "today",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bugün hava çok güzel.",
+    "example_en": "The weather is very nice today."
+  },
+  {
+    "id": 54,
+    "turkish": "yarın",
+    "english": "tomorrow",
+    "category": "Temel Kelimeler",
+    "example_tr": "Yarın sizi arayacağım.",
+    "example_en": "I will call you tomorrow."
+  },
+  {
+    "id": 55,
+    "turkish": "dün",
+    "english": "yesterday",
+    "category": "Temel Kelimeler",
+    "example_tr": "Dün çok yoruldum.",
+    "example_en": "I was very tired yesterday."
+  },
+  {
+    "id": 56,
+    "turkish": "sabah",
+    "english": "morning",
+    "category": "Temel Kelimeler",
+    "example_tr": "Her sabah kahvaltı yapıyorum.",
+    "example_en": "I have breakfast every morning."
+  },
+  {
+    "id": 57,
+    "turkish": "akşam",
+    "english": "evening",
+    "category": "Temel Kelimeler",
+    "example_tr": "Akşam ne yedik?",
+    "example_en": "What did we eat in the evening?"
+  },
+  {
+    "id": 58,
+    "turkish": "gece",
+    "english": "night",
+    "category": "Temel Kelimeler",
+    "example_tr": "Gece geç uyudum.",
+    "example_en": "I slept late at night."
+  },
+  {
+    "id": 59,
+    "turkish": "iyi",
+    "english": "good",
+    "category": "Sıfatlar",
+    "example_tr": "Bu iyi bir fikir.",
+    "example_en": "This is a good idea."
+  },
+  {
+    "id": 60,
+    "turkish": "kötü",
+    "english": "bad",
+    "category": "Sıfatlar",
+    "example_tr": "Bugün hissim çok kötü.",
+    "example_en": "I feel very bad today."
+  },
+  {
+    "id": 61,
+    "turkish": "büyük",
+    "english": "big",
+    "category": "Sıfatlar",
+    "example_tr": "O büyük bir ev.",
+    "example_en": "That is a big house."
+  },
+  {
+    "id": 62,
+    "turkish": "küçük",
+    "english": "small",
+    "category": "Sıfatlar",
+    "example_tr": "Küçük bir kedi buldum.",
+    "example_en": "I found a small cat."
+  },
+  {
+    "id": 63,
+    "turkish": "uzun",
+    "english": "long / tall",
+    "category": "Sıfatlar",
+    "example_tr": "O çok uzun boylu.",
+    "example_en": "He is very tall."
+  },
+  {
+    "id": 64,
+    "turkish": "kısa",
+    "english": "short",
+    "category": "Sıfatlar",
+    "example_tr": "Bu yol çok kısa.",
+    "example_en": "This road is very short."
+  },
+  {
+    "id": 65,
+    "turkish": "hızlı",
+    "english": "fast",
+    "category": "Sıfatlar",
+    "example_tr": "Araba çok hızlı gidiyordu.",
+    "example_en": "The car was going very fast."
+  },
+  {
+    "id": 66,
+    "turkish": "yavaş",
+    "english": "slow",
+    "category": "Sıfatlar",
+    "example_tr": "Lütfen daha yavaş konuş.",
+    "example_en": "Please speak more slowly."
+  },
+  {
+    "id": 67,
+    "turkish": "sıcak",
+    "english": "hot",
+    "category": "Sıfatlar",
+    "example_tr": "Bu çay çok sıcak.",
+    "example_en": "This tea is very hot."
+  },
+  {
+    "id": 68,
+    "turkish": "soğuk",
+    "english": "cold",
+    "category": "Sıfatlar",
+    "example_tr": "Kış çok soğuk geçti.",
+    "example_en": "The winter was very cold."
+  },
+  {
+    "id": 69,
+    "turkish": "yeni",
+    "english": "new",
+    "category": "Sıfatlar",
+    "example_tr": "Yeni bir telefon aldım.",
+    "example_en": "I bought a new phone."
+  },
+  {
+    "id": 70,
+    "turkish": "eski",
+    "english": "old",
+    "category": "Sıfatlar",
+    "example_tr": "Bu eski bir fotoğraf.",
+    "example_en": "This is an old photo."
+  },
+  {
+    "id": 71,
+    "turkish": "doğru",
+    "english": "correct / right",
+    "category": "Sıfatlar",
+    "example_tr": "Cevabın doğru.",
+    "example_en": "Your answer is correct."
+  },
+  {
+    "id": 72,
+    "turkish": "yanlış",
+    "english": "wrong",
+    "category": "Sıfatlar",
+    "example_tr": "Bu yanlış bir karar.",
+    "example_en": "This is a wrong decision."
+  },
+  {
+    "id": 73,
+    "turkish": "kolay",
+    "english": "easy",
+    "category": "Sıfatlar",
+    "example_tr": "Bu sınav çok kolaydı.",
+    "example_en": "This exam was very easy."
+  },
+  {
+    "id": 74,
+    "turkish": "zor",
+    "english": "hard / difficult",
+    "category": "Sıfatlar",
+    "example_tr": "Matematik zor bir ders.",
+    "example_en": "Mathematics is a difficult subject."
+  },
+  {
+    "id": 75,
+    "turkish": "dolu",
+    "english": "full",
+    "category": "Sıfatlar",
+    "example_tr": "Bardak su ile dolu.",
+    "example_en": "The glass is full of water."
+  },
+  {
+    "id": 76,
+    "turkish": "boş",
+    "english": "empty",
+    "category": "Sıfatlar",
+    "example_tr": "Oda şu an boş.",
+    "example_en": "The room is empty right now."
+  },
+  {
+    "id": 77,
+    "turkish": "temiz",
+    "english": "clean",
+    "category": "Sıfatlar",
+    "example_tr": "Ellerini temiz tut.",
+    "example_en": "Keep your hands clean."
+  },
+  {
+    "id": 78,
+    "turkish": "kirli",
+    "english": "dirty",
+    "category": "Sıfatlar",
+    "example_tr": "Giysilerin kirli.",
+    "example_en": "Your clothes are dirty."
+  },
+  {
+    "id": 79,
+    "turkish": "güzel",
+    "english": "beautiful",
+    "category": "Sıfatlar",
+    "example_tr": "Bu güzel bir şehir.",
+    "example_en": "This is a beautiful city."
+  },
+  {
+    "id": 80,
+    "turkish": "çirkin",
+    "english": "ugly",
+    "category": "Sıfatlar",
+    "example_tr": "O tablo biraz çirkin.",
+    "example_en": "That painting is a bit ugly."
+  },
+  {
+    "id": 81,
+    "turkish": "açık",
+    "english": "open / light (color)",
+    "category": "Sıfatlar",
+    "example_tr": "Dükkan açık mı?",
+    "example_en": "Is the shop open?"
+  },
+  {
+    "id": 82,
+    "turkish": "kapalı",
+    "english": "closed",
+    "category": "Sıfatlar",
+    "example_tr": "Banka bugün kapalı.",
+    "example_en": "The bank is closed today."
+  },
+  {
+    "id": 83,
+    "turkish": "erken",
+    "english": "early",
+    "category": "Sıfatlar",
+    "example_tr": "Bugün çok erken kalktım.",
+    "example_en": "I woke up very early today."
+  },
+  {
+    "id": 84,
+    "turkish": "geç",
+    "english": "late",
+    "category": "Sıfatlar",
+    "example_tr": "Toplantıya geç kaldım.",
+    "example_en": "I was late to the meeting."
+  },
+  {
+    "id": 85,
+    "turkish": "çok",
+    "english": "very / much / many",
+    "category": "Temel Kelimeler",
+    "example_tr": "Çok yorgunum.",
+    "example_en": "I am very tired."
+  },
+  {
+    "id": 86,
+    "turkish": "az",
+    "english": "little / few",
+    "category": "Temel Kelimeler",
+    "example_tr": "Az şeker koydum.",
+    "example_en": "I added a little sugar."
+  },
+  {
+    "id": 87,
+    "turkish": "daha",
+    "english": "more",
+    "category": "Temel Kelimeler",
+    "example_tr": "Daha fazla çalışmalısın.",
+    "example_en": "You should work more."
+  },
+  {
+    "id": 88,
+    "turkish": "en",
+    "english": "most",
+    "category": "Temel Kelimeler",
+    "example_tr": "O en iyi öğrenci.",
+    "example_en": "She is the best student."
+  },
+  {
+    "id": 89,
+    "turkish": "ile",
+    "english": "with",
+    "category": "Temel Kelimeler",
+    "example_tr": "Seninle gelmek istiyorum.",
+    "example_en": "I want to come with you."
+  },
+  {
+    "id": 90,
+    "turkish": "için",
+    "english": "for",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bu hediye senin için.",
+    "example_en": "This gift is for you."
+  },
+  {
+    "id": 91,
+    "turkish": "gibi",
+    "english": "like / similar to",
+    "category": "Temel Kelimeler",
+    "example_tr": "Aslan gibi güçlü.",
+    "example_en": "Strong like a lion."
+  },
+  {
+    "id": 92,
+    "turkish": "kadar",
+    "english": "as...as / until",
+    "category": "Temel Kelimeler",
+    "example_tr": "Buraya kadar gel.",
+    "example_en": "Come up to here."
+  },
+  {
+    "id": 93,
+    "turkish": "ama",
+    "english": "but",
+    "category": "Temel Kelimeler",
+    "example_tr": "Gelmek istiyorum ama vaktim yok.",
+    "example_en": "I want to come but I have no time."
+  },
+  {
+    "id": 94,
+    "turkish": "ve",
+    "english": "and",
+    "category": "Temel Kelimeler",
+    "example_tr": "Elma ve portakal aldım.",
+    "example_en": "I bought apple and orange."
+  },
+  {
+    "id": 95,
+    "turkish": "veya",
+    "english": "or",
+    "category": "Temel Kelimeler",
+    "example_tr": "Çay veya kahve ister misin?",
+    "example_en": "Do you want tea or coffee?"
+  },
+  {
+    "id": 96,
+    "turkish": "çünkü",
+    "english": "because",
+    "category": "Temel Kelimeler",
+    "example_tr": "Geç kaldım çünkü uyuyakaldım.",
+    "example_en": "I was late because I overslept."
+  },
+  {
+    "id": 97,
+    "turkish": "eğer",
+    "english": "if",
+    "category": "Temel Kelimeler",
+    "example_tr": "Eğer gelirsen, mutlu olurum.",
+    "example_en": "If you come, I will be happy."
+  },
+  {
+    "id": 98,
+    "turkish": "her",
+    "english": "every / each",
+    "category": "Temel Kelimeler",
+    "example_tr": "Her sabah koşuyorum.",
+    "example_en": "I run every morning."
+  },
+  {
+    "id": 99,
+    "turkish": "bazı",
+    "english": "some",
+    "category": "Temel Kelimeler",
+    "example_tr": "Bazı sorular çok zordu.",
+    "example_en": "Some questions were very hard."
+  },
+  {
+    "id": 100,
+    "turkish": "hiç",
+    "english": "never / any",
+    "category": "Temel Kelimeler",
+    "example_tr": "Hiç yabancı dil öğrendin mi?",
+    "example_en": "Have you ever learned a foreign language?"
+  },
+  {
+    "id": 101,
+    "turkish": "adam",
+    "english": "man",
+    "category": "İnsanlar & Aile",
+    "example_tr": "O adam benim komşum.",
+    "example_en": "That man is my neighbor."
+  },
+  {
+    "id": 102,
+    "turkish": "kadın",
+    "english": "woman",
+    "category": "İnsanlar & Aile",
+    "example_tr": "O kadın çok nazik.",
+    "example_en": "That woman is very kind."
+  },
+  {
+    "id": 103,
+    "turkish": "çocuk",
+    "english": "child",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Çocuk parkta oynuyor.",
+    "example_en": "The child is playing in the park."
+  },
+  {
+    "id": 104,
+    "turkish": "bebek",
+    "english": "baby",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Bebek uyuyor.",
+    "example_en": "The baby is sleeping."
+  },
+  {
+    "id": 105,
+    "turkish": "insan",
+    "english": "person / human",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Her insan farklıdır.",
+    "example_en": "Every person is different."
+  },
+  {
+    "id": 106,
+    "turkish": "arkadaş",
+    "english": "friend",
+    "category": "İnsanlar & Aile",
+    "example_tr": "O benim en iyi arkadaşım.",
+    "example_en": "She is my best friend."
+  },
+  {
+    "id": 107,
+    "turkish": "aile",
+    "english": "family",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Ailem İzmir'de yaşıyor.",
+    "example_en": "My family lives in Izmir."
+  },
+  {
+    "id": 108,
+    "turkish": "anne",
+    "english": "mother",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Annem çok iyi yemek yapar.",
+    "example_en": "My mother cooks very well."
+  },
+  {
+    "id": 109,
+    "turkish": "baba",
+    "english": "father",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Babam doktor.",
+    "example_en": "My father is a doctor."
+  },
+  {
+    "id": 110,
+    "turkish": "kardeş",
+    "english": "sibling",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Bir kardeşim var.",
+    "example_en": "I have one sibling."
+  },
+  {
+    "id": 111,
+    "turkish": "abi",
+    "english": "older brother",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Abim üniversitede okuyor.",
+    "example_en": "My older brother studies at university."
+  },
+  {
+    "id": 112,
+    "turkish": "abla",
+    "english": "older sister",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Ablam İstanbul'da çalışıyor.",
+    "example_en": "My older sister works in Istanbul."
+  },
+  {
+    "id": 113,
+    "turkish": "amca",
+    "english": "uncle (father's side)",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Amcam çiftçi.",
+    "example_en": "My uncle is a farmer."
+  },
+  {
+    "id": 114,
+    "turkish": "teyze",
+    "english": "aunt (mother's side)",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Teyzem bizi ziyarete geldi.",
+    "example_en": "My aunt came to visit us."
+  },
+  {
+    "id": 115,
+    "turkish": "dede",
+    "english": "grandfather",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Dedem 80 yaşında.",
+    "example_en": "My grandfather is 80 years old."
+  },
+  {
+    "id": 116,
+    "turkish": "nine",
+    "english": "grandmother",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Ninememin yemekleri harikaydı.",
+    "example_en": "My grandmother's food was amazing."
+  },
+  {
+    "id": 117,
+    "turkish": "öğretmen",
+    "english": "teacher",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Öğretmenim çok sabırlı.",
+    "example_en": "My teacher is very patient."
+  },
+  {
+    "id": 118,
+    "turkish": "öğrenci",
+    "english": "student",
+    "category": "İnsanlar & Aile",
+    "example_tr": "O başarılı bir öğrenci.",
+    "example_en": "He is a successful student."
+  },
+  {
+    "id": 119,
+    "turkish": "doktor",
+    "english": "doctor",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Doktora gitmem gerekiyor.",
+    "example_en": "I need to go to the doctor."
+  },
+  {
+    "id": 120,
+    "turkish": "mühendis",
+    "english": "engineer",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Kardeşim mühendis olmak istiyor.",
+    "example_en": "My sibling wants to be an engineer."
+  },
+  {
+    "id": 121,
+    "turkish": "işçi",
+    "english": "worker",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Fabrikada çok işçi var.",
+    "example_en": "There are many workers in the factory."
+  },
+  {
+    "id": 122,
+    "turkish": "patron",
+    "english": "boss",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Patronum toplantıda.",
+    "example_en": "My boss is in a meeting."
+  },
+  {
+    "id": 123,
+    "turkish": "polis",
+    "english": "police",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Polisi ara, acil durum var.",
+    "example_en": "Call the police, there is an emergency."
+  },
+  {
+    "id": 124,
+    "turkish": "asker",
+    "english": "soldier",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Ağabeyim asker.",
+    "example_en": "My older brother is a soldier."
+  },
+  {
+    "id": 125,
+    "turkish": "komşu",
+    "english": "neighbor",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Komşularım çok yardımsever.",
+    "example_en": "My neighbors are very helpful."
+  },
+  {
+    "id": 126,
+    "turkish": "müşteri",
+    "english": "customer",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Müşteri memnuniyeti önemlidir.",
+    "example_en": "Customer satisfaction is important."
+  },
+  {
+    "id": 127,
+    "turkish": "satıcı",
+    "english": "seller",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Satıcı bana indirim yaptı.",
+    "example_en": "The seller gave me a discount."
+  },
+  {
+    "id": 128,
+    "turkish": "erkek",
+    "english": "male",
+    "category": "İnsanlar & Aile",
+    "example_tr": "O erkek mi, kız mı?",
+    "example_en": "Is it a boy or a girl?"
+  },
+  {
+    "id": 129,
+    "turkish": "yaşlı",
+    "english": "old (person)",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Yaşlı insanlara saygı göster.",
+    "example_en": "Show respect to elderly people."
+  },
+  {
+    "id": 130,
+    "turkish": "genç",
+    "english": "young",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Genç nesil teknolojiyi çok kullanıyor.",
+    "example_en": "The young generation uses technology a lot."
+  },
+  {
+    "id": 131,
+    "turkish": "evli",
+    "english": "married",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Beş yıldır evliyiz.",
+    "example_en": "We have been married for five years."
+  },
+  {
+    "id": 132,
+    "turkish": "bekar",
+    "english": "single",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Hâlâ bekarım.",
+    "example_en": "I am still single."
+  },
+  {
+    "id": 133,
+    "turkish": "isim",
+    "english": "name",
+    "category": "İnsanlar & Aile",
+    "example_tr": "İsmin ne?",
+    "example_en": "What is your name?"
+  },
+  {
+    "id": 134,
+    "turkish": "soyisim",
+    "english": "surname",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Soyisminizi yazar mısınız?",
+    "example_en": "Can you write your surname?"
+  },
+  {
+    "id": 135,
+    "turkish": "yaş",
+    "english": "age",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Kaç yaşındasın?",
+    "example_en": "How old are you?"
+  },
+  {
+    "id": 136,
+    "turkish": "doğum",
+    "english": "birth",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Doğum tarihin ne?",
+    "example_en": "What is your date of birth?"
+  },
+  {
+    "id": 137,
+    "turkish": "ölüm",
+    "english": "death",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Ölüm hayatın bir parçasıdır.",
+    "example_en": "Death is a part of life."
+  },
+  {
+    "id": 138,
+    "turkish": "hayat",
+    "english": "life",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Hayat çok güzel.",
+    "example_en": "Life is very beautiful."
+  },
+  {
+    "id": 139,
+    "turkish": "dünya",
+    "english": "world",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Dünya büyük bir yer.",
+    "example_en": "The world is a big place."
+  },
+  {
+    "id": 140,
+    "turkish": "ülke",
+    "english": "country",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Hangi ülkedesin?",
+    "example_en": "Which country are you in?"
+  },
+  {
+    "id": 141,
+    "turkish": "şehir",
+    "english": "city",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Bu şehirde yaşamak güzel.",
+    "example_en": "It is nice to live in this city."
+  },
+  {
+    "id": 142,
+    "turkish": "köy",
+    "english": "village",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Büyükannem köyde yaşıyor.",
+    "example_en": "My grandmother lives in a village."
+  },
+  {
+    "id": 143,
+    "turkish": "mahalle",
+    "english": "neighborhood",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Mahallemiz çok sessiz.",
+    "example_en": "Our neighborhood is very quiet."
+  },
+  {
+    "id": 144,
+    "turkish": "adres",
+    "english": "address",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Adresinizi paylaşır mısınız?",
+    "example_en": "Can you share your address?"
+  },
+  {
+    "id": 145,
+    "turkish": "telefon",
+    "english": "phone",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Telefonun çalıyor.",
+    "example_en": "Your phone is ringing."
+  },
+  {
+    "id": 146,
+    "turkish": "numara",
+    "english": "number",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Telefon numaranı verir misin?",
+    "example_en": "Can you give me your phone number?"
+  },
+  {
+    "id": 147,
+    "turkish": "e-posta",
+    "english": "email",
+    "category": "İnsanlar & Aile",
+    "example_tr": "E-postanı kontrol et.",
+    "example_en": "Check your email."
+  },
+  {
+    "id": 148,
+    "turkish": "mesaj",
+    "english": "message",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Bir mesaj bırak.",
+    "example_en": "Leave a message."
+  },
+  {
+    "id": 149,
+    "turkish": "konuşma",
+    "english": "conversation",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Güzel bir konuşma yaptık.",
+    "example_en": "We had a nice conversation."
+  },
+  {
+    "id": 150,
+    "turkish": "dil",
+    "english": "language",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Kaç dil konuşuyorsun?",
+    "example_en": "How many languages do you speak?"
+  },
+  {
+    "id": 151,
+    "turkish": "Türkçe",
+    "english": "Turkish",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Türkçe öğrenmek istiyorum.",
+    "example_en": "I want to learn Turkish."
+  },
+  {
+    "id": 152,
+    "turkish": "İngilizce",
+    "english": "English",
+    "category": "İnsanlar & Aile",
+    "example_tr": "İngilizce biliyor musun?",
+    "example_en": "Do you know English?"
+  },
+  {
+    "id": 153,
+    "turkish": "soru",
+    "english": "question",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Bir sorum var.",
+    "example_en": "I have a question."
+  },
+  {
+    "id": 154,
+    "turkish": "bilgi",
+    "english": "information",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Daha fazla bilgiye ihtiyacım var.",
+    "example_en": "I need more information."
+  },
+  {
+    "id": 155,
+    "turkish": "ders",
+    "english": "lesson",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Bugün matematik dersi var.",
+    "example_en": "There is a math lesson today."
+  },
+  {
+    "id": 156,
+    "turkish": "okul",
+    "english": "school",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Okul saat sekizde başlıyor.",
+    "example_en": "School starts at eight o'clock."
+  },
+  {
+    "id": 157,
+    "turkish": "sınıf",
+    "english": "class / classroom",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Sınıfta yirmi öğrenci var.",
+    "example_en": "There are twenty students in the class."
+  },
+  {
+    "id": 158,
+    "turkish": "kitap",
+    "english": "book",
+    "category": "İnsanlar & Aile",
+    "example_tr": "Bu kitabı okudun mu?",
+    "example_en": "Have you read this book?"
+  },
+  {
+    "id": 159,
+    "turkish": "ev",
+    "english": "house / home",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Evim küçük ama rahat.",
+    "example_en": "My home is small but comfortable."
+  },
+  {
+    "id": 160,
+    "turkish": "oda",
+    "english": "room",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Odamı temizledim.",
+    "example_en": "I cleaned my room."
+  },
+  {
+    "id": 161,
+    "turkish": "mutfak",
+    "english": "kitchen",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Mutfakta yemek pişiriyorum.",
+    "example_en": "I am cooking in the kitchen."
+  },
+  {
+    "id": 162,
+    "turkish": "banyo",
+    "english": "bathroom",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Banyo meşgul.",
+    "example_en": "The bathroom is occupied."
+  },
+  {
+    "id": 163,
+    "turkish": "yatak",
+    "english": "bed",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Yatağım çok rahat.",
+    "example_en": "My bed is very comfortable."
+  },
+  {
+    "id": 164,
+    "turkish": "masa",
+    "english": "table",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kitaplarım masanın üstünde.",
+    "example_en": "My books are on the table."
+  },
+  {
+    "id": 165,
+    "turkish": "sandalye",
+    "english": "chair",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Sandalyeye otur.",
+    "example_en": "Sit on the chair."
+  },
+  {
+    "id": 166,
+    "turkish": "kapı",
+    "english": "door",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kapıyı çal.",
+    "example_en": "Knock on the door."
+  },
+  {
+    "id": 167,
+    "turkish": "pencere",
+    "english": "window",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Pencereden dışarıya bakıyorum.",
+    "example_en": "I am looking outside through the window."
+  },
+  {
+    "id": 168,
+    "turkish": "duvar",
+    "english": "wall",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Duvara resim astım.",
+    "example_en": "I hung a picture on the wall."
+  },
+  {
+    "id": 169,
+    "turkish": "ışık",
+    "english": "light",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Işığı aç lütfen.",
+    "example_en": "Turn on the light please."
+  },
+  {
+    "id": 170,
+    "turkish": "anahtar",
+    "english": "key",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Anahtarımı kaybettim.",
+    "example_en": "I lost my key."
+  },
+  {
+    "id": 171,
+    "turkish": "çanta",
+    "english": "bag",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Çantam çok ağır.",
+    "example_en": "My bag is very heavy."
+  },
+  {
+    "id": 172,
+    "turkish": "cüzdan",
+    "english": "wallet",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Cüzdanım nerede?",
+    "example_en": "Where is my wallet?"
+  },
+  {
+    "id": 173,
+    "turkish": "para",
+    "english": "money",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Param bitti.",
+    "example_en": "I ran out of money."
+  },
+  {
+    "id": 174,
+    "turkish": "kart",
+    "english": "card",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kredi kartıyla ödedim.",
+    "example_en": "I paid by credit card."
+  },
+  {
+    "id": 175,
+    "turkish": "bilgisayar",
+    "english": "computer",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Bilgisayarım çok yavaş.",
+    "example_en": "My computer is very slow."
+  },
+  {
+    "id": 176,
+    "turkish": "ekran",
+    "english": "screen",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Ekran kırıldı.",
+    "example_en": "The screen is broken."
+  },
+  {
+    "id": 177,
+    "turkish": "internet",
+    "english": "internet",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "İnternet bağlantım yok.",
+    "example_en": "I have no internet connection."
+  },
+  {
+    "id": 178,
+    "turkish": "su",
+    "english": "water",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Bir bardak su verir misin?",
+    "example_en": "Can you give me a glass of water?"
+  },
+  {
+    "id": 179,
+    "turkish": "ekmek",
+    "english": "bread",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Taze ekmek aldım.",
+    "example_en": "I bought fresh bread."
+  },
+  {
+    "id": 180,
+    "turkish": "yemek",
+    "english": "food / meal",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Yemek çok lezzetli.",
+    "example_en": "The food is very delicious."
+  },
+  {
+    "id": 181,
+    "turkish": "kahvaltı",
+    "english": "breakfast",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kahvaltı hazır.",
+    "example_en": "Breakfast is ready."
+  },
+  {
+    "id": 182,
+    "turkish": "öğle yemeği",
+    "english": "lunch",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Öğle yemeğinde ne yiyoruz?",
+    "example_en": "What are we eating for lunch?"
+  },
+  {
+    "id": 183,
+    "turkish": "akşam yemeği",
+    "english": "dinner",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Akşam yemeğini birlikte yiyelim.",
+    "example_en": "Let's have dinner together."
+  },
+  {
+    "id": 184,
+    "turkish": "çay",
+    "english": "tea",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Çayı demleyelim mi?",
+    "example_en": "Shall we brew the tea?"
+  },
+  {
+    "id": 185,
+    "turkish": "kahve",
+    "english": "coffee",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Sabah kahvesi içiyorum.",
+    "example_en": "I drink morning coffee."
+  },
+  {
+    "id": 186,
+    "turkish": "süt",
+    "english": "milk",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kahveye süt koyuyorum.",
+    "example_en": "I put milk in the coffee."
+  },
+  {
+    "id": 187,
+    "turkish": "meyve",
+    "english": "fruit",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Her gün meyve yiyorum.",
+    "example_en": "I eat fruit every day."
+  },
+  {
+    "id": 188,
+    "turkish": "sebze",
+    "english": "vegetable",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Sebze çorbası yaptım.",
+    "example_en": "I made vegetable soup."
+  },
+  {
+    "id": 189,
+    "turkish": "et",
+    "english": "meat",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kırmızı et sağlıklı mı?",
+    "example_en": "Is red meat healthy?"
+  },
+  {
+    "id": 190,
+    "turkish": "tavuk",
+    "english": "chicken",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Fırında tavuk pişirdim.",
+    "example_en": "I roasted chicken in the oven."
+  },
+  {
+    "id": 191,
+    "turkish": "balık",
+    "english": "fish",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Balık çok sağlıklı.",
+    "example_en": "Fish is very healthy."
+  },
+  {
+    "id": 192,
+    "turkish": "tuz",
+    "english": "salt",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Az tuz koy.",
+    "example_en": "Add a little salt."
+  },
+  {
+    "id": 193,
+    "turkish": "şeker",
+    "english": "sugar",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Şeker kullanmıyorum.",
+    "example_en": "I don't use sugar."
+  },
+  {
+    "id": 194,
+    "turkish": "yağ",
+    "english": "oil / fat",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Zeytinyağı kullandım.",
+    "example_en": "I used olive oil."
+  },
+  {
+    "id": 195,
+    "turkish": "alışveriş",
+    "english": "shopping",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Cumartesi alışverişe gidiyoruz.",
+    "example_en": "We are going shopping on Saturday."
+  },
+  {
+    "id": 196,
+    "turkish": "market",
+    "english": "market / supermarket",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Marketten ekmek alacağım.",
+    "example_en": "I will buy bread from the market."
+  },
+  {
+    "id": 197,
+    "turkish": "mağaza",
+    "english": "shop / store",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Bu mağazada indirim var.",
+    "example_en": "There is a sale in this store."
+  },
+  {
+    "id": 198,
+    "turkish": "fiyat",
+    "english": "price",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Fiyatı ne kadar?",
+    "example_en": "What is the price?"
+  },
+  {
+    "id": 199,
+    "turkish": "ucuz",
+    "english": "cheap",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Bu dükkan çok ucuz.",
+    "example_en": "This shop is very cheap."
+  },
+  {
+    "id": 200,
+    "turkish": "pahalı",
+    "english": "expensive",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Bu ürün çok pahalı.",
+    "example_en": "This product is very expensive."
+  },
+  {
+    "id": 201,
+    "turkish": "fiş",
+    "english": "receipt",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Fişi sakladım.",
+    "example_en": "I kept the receipt."
+  },
+  {
+    "id": 202,
+    "turkish": "kasa",
+    "english": "cashier / register",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kasada uzun bir kuyruk var.",
+    "example_en": "There is a long queue at the cashier."
+  },
+  {
+    "id": 203,
+    "turkish": "temizlik",
+    "english": "cleaning",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Ev temizliği yapacağım.",
+    "example_en": "I will do house cleaning."
+  },
+  {
+    "id": 204,
+    "turkish": "çöp",
+    "english": "trash / garbage",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Çöpü çıkar lütfen.",
+    "example_en": "Please take out the trash."
+  },
+  {
+    "id": 205,
+    "turkish": "ayakkabı",
+    "english": "shoes",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Yeni ayakkabı aldım.",
+    "example_en": "I bought new shoes."
+  },
+  {
+    "id": 206,
+    "turkish": "pantolon",
+    "english": "pants / trousers",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Bu pantolon dar.",
+    "example_en": "These pants are tight."
+  },
+  {
+    "id": 207,
+    "turkish": "tişört",
+    "english": "t-shirt",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Beyaz tişört giydim.",
+    "example_en": "I wore a white t-shirt."
+  },
+  {
+    "id": 208,
+    "turkish": "ceket",
+    "english": "jacket",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Ceketimi unuttum.",
+    "example_en": "I forgot my jacket."
+  },
+  {
+    "id": 209,
+    "turkish": "mont",
+    "english": "coat",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kışın kalın mont giyiyorum.",
+    "example_en": "I wear a thick coat in winter."
+  },
+  {
+    "id": 210,
+    "turkish": "elbise",
+    "english": "dress",
+    "category": "Ev & Günlük Hayat",
+    "example_tr": "Kırmızı elbise çok güzel.",
+    "example_en": "The red dress is very beautiful."
+  },
+  {
+    "id": 211,
+    "turkish": "renk",
+    "english": "color",
+    "category": "Renkler",
+    "example_tr": "Hangi renk daha güzel?",
+    "example_en": "Which color is more beautiful?"
+  },
+  {
+    "id": 212,
+    "turkish": "kırmızı",
+    "english": "red",
+    "category": "Renkler",
+    "example_tr": "Kırmızı gül aldım.",
+    "example_en": "I bought a red rose."
+  },
+  {
+    "id": 213,
+    "turkish": "mavi",
+    "english": "blue",
+    "category": "Renkler",
+    "example_tr": "Gökyüzü mavi.",
+    "example_en": "The sky is blue."
+  },
+  {
+    "id": 214,
+    "turkish": "yeşil",
+    "english": "green",
+    "category": "Renkler",
+    "example_tr": "Yeşil yapraklar çok güzel.",
+    "example_en": "The green leaves are very beautiful."
+  },
+  {
+    "id": 215,
+    "turkish": "siyah",
+    "english": "black",
+    "category": "Renkler",
+    "example_tr": "Siyah araba aldım.",
+    "example_en": "I bought a black car."
+  },
+  {
+    "id": 216,
+    "turkish": "beyaz",
+    "english": "white",
+    "category": "Renkler",
+    "example_tr": "Beyaz gömlek giydim.",
+    "example_en": "I wore a white shirt."
+  },
+  {
+    "id": 217,
+    "turkish": "sarı",
+    "english": "yellow",
+    "category": "Renkler",
+    "example_tr": "Sarı çiçekler açtı.",
+    "example_en": "Yellow flowers bloomed."
+  },
+  {
+    "id": 218,
+    "turkish": "gri",
+    "english": "gray",
+    "category": "Renkler",
+    "example_tr": "Gri bulutlar geliyor.",
+    "example_en": "Gray clouds are coming."
+  },
+  {
+    "id": 219,
+    "turkish": "kahverengi",
+    "english": "brown",
+    "category": "Renkler",
+    "example_tr": "Kahverengi gözlerin var.",
+    "example_en": "You have brown eyes."
+  },
+  {
+    "id": 220,
+    "turkish": "pembe",
+    "english": "pink",
+    "category": "Renkler",
+    "example_tr": "Pembe etek aldım.",
+    "example_en": "I bought a pink skirt."
+  },
+  {
+    "id": 221,
+    "turkish": "gitmek",
+    "english": "to go",
+    "category": "Fiiller",
+    "example_tr": "Her gün okula gidiyorum.",
+    "example_en": "I go to school every day."
+  },
+  {
+    "id": 222,
+    "turkish": "gelmek",
+    "english": "to come",
+    "category": "Fiiller",
+    "example_tr": "Eve geç geldim.",
+    "example_en": "I came home late."
+  },
+  {
+    "id": 223,
+    "turkish": "yapmak",
+    "english": "to do / to make",
+    "category": "Fiiller",
+    "example_tr": "Ev ödevi yapmam gerekiyor.",
+    "example_en": "I need to do my homework."
+  },
+  {
+    "id": 224,
+    "turkish": "almak",
+    "english": "to take / to buy",
+    "category": "Fiiller",
+    "example_tr": "Marketten süt aldım.",
+    "example_en": "I bought milk from the market."
+  },
+  {
+    "id": 225,
+    "turkish": "vermek",
+    "english": "to give",
+    "category": "Fiiller",
+    "example_tr": "Sana bir hediye verdim.",
+    "example_en": "I gave you a gift."
+  },
+  {
+    "id": 226,
+    "turkish": "görmek",
+    "english": "to see",
+    "category": "Fiiller",
+    "example_tr": "Seni uzaktan gördüm.",
+    "example_en": "I saw you from afar."
+  },
+  {
+    "id": 227,
+    "turkish": "bilmek",
+    "english": "to know",
+    "category": "Fiiller",
+    "example_tr": "Türkçe biliyorum.",
+    "example_en": "I know Turkish."
+  },
+  {
+    "id": 228,
+    "turkish": "sevmek",
+    "english": "to love",
+    "category": "Fiiller",
+    "example_tr": "Seni seviyorum.",
+    "example_en": "I love you."
+  },
+  {
+    "id": 229,
+    "turkish": "istemek",
+    "english": "to want",
+    "category": "Fiiller",
+    "example_tr": "Dondurma istiyorum.",
+    "example_en": "I want ice cream."
+  },
+  {
+    "id": 230,
+    "turkish": "çalışmak",
+    "english": "to work / to study",
+    "category": "Fiiller",
+    "example_tr": "Ofiste çalışıyorum.",
+    "example_en": "I work in an office."
+  },
+  {
+    "id": 231,
+    "turkish": "konuşmak",
+    "english": "to speak / to talk",
+    "category": "Fiiller",
+    "example_tr": "Seninle konuşmak istiyorum.",
+    "example_en": "I want to talk with you."
+  },
+  {
+    "id": 232,
+    "turkish": "dinlemek",
+    "english": "to listen",
+    "category": "Fiiller",
+    "example_tr": "Müzik dinlemeyi seviyorum.",
+    "example_en": "I love listening to music."
+  },
+  {
+    "id": 233,
+    "turkish": "yazmak",
+    "english": "to write",
+    "category": "Fiiller",
+    "example_tr": "Her gün günlük yazıyorum.",
+    "example_en": "I write a diary every day."
+  },
+  {
+    "id": 234,
+    "turkish": "okumak",
+    "english": "to read",
+    "category": "Fiiller",
+    "example_tr": "Akşamları kitap okuyorum.",
+    "example_en": "I read books in the evenings."
+  },
+  {
+    "id": 235,
+    "turkish": "açmak",
+    "english": "to open",
+    "category": "Fiiller",
+    "example_tr": "Pencereyi açtım.",
+    "example_en": "I opened the window."
+  },
+  {
+    "id": 236,
+    "turkish": "kapatmak",
+    "english": "to close",
+    "category": "Fiiller",
+    "example_tr": "Kapıyı kapattım.",
+    "example_en": "I closed the door."
+  },
+  {
+    "id": 237,
+    "turkish": "başlamak",
+    "english": "to start / to begin",
+    "category": "Fiiller",
+    "example_tr": "Film başladı.",
+    "example_en": "The movie started."
+  },
+  {
+    "id": 238,
+    "turkish": "bitirmek",
+    "english": "to finish",
+    "category": "Fiiller",
+    "example_tr": "Projeyi bitirdim.",
+    "example_en": "I finished the project."
+  },
+  {
+    "id": 239,
+    "turkish": "yaşamak",
+    "english": "to live",
+    "category": "Fiiller",
+    "example_tr": "Ankara'da yaşıyorum.",
+    "example_en": "I live in Ankara."
+  },
+  {
+    "id": 240,
+    "turkish": "kalmak",
+    "english": "to stay / to remain",
+    "category": "Fiiller",
+    "example_tr": "Otelde kaldık.",
+    "example_en": "We stayed at the hotel."
+  },
+  {
+    "id": 241,
+    "turkish": "bulmak",
+    "english": "to find",
+    "category": "Fiiller",
+    "example_tr": "İş buldum.",
+    "example_en": "I found a job."
+  },
+  {
+    "id": 242,
+    "turkish": "kaybetmek",
+    "english": "to lose",
+    "category": "Fiiller",
+    "example_tr": "Maçı kaybettik.",
+    "example_en": "We lost the match."
+  },
+  {
+    "id": 243,
+    "turkish": "beklemek",
+    "english": "to wait",
+    "category": "Fiiller",
+    "example_tr": "Seni bekliyorum.",
+    "example_en": "I am waiting for you."
+  },
+  {
+    "id": 244,
+    "turkish": "sormak",
+    "english": "to ask",
+    "category": "Fiiller",
+    "example_tr": "Bir şey sormak istiyorum.",
+    "example_en": "I want to ask something."
+  },
+  {
+    "id": 245,
+    "turkish": "cevaplamak",
+    "english": "to answer",
+    "category": "Fiiller",
+    "example_tr": "Soruyu cevapladım.",
+    "example_en": "I answered the question."
+  },
+  {
+    "id": 246,
+    "turkish": "yemek",
+    "english": "to eat",
+    "category": "Fiiller",
+    "example_tr": "Akşam pizza yedik.",
+    "example_en": "We ate pizza in the evening."
+  },
+  {
+    "id": 247,
+    "turkish": "içmek",
+    "english": "to drink",
+    "category": "Fiiller",
+    "example_tr": "Günde iki litre su içiyorum.",
+    "example_en": "I drink two liters of water a day."
+  },
+  {
+    "id": 248,
+    "turkish": "uyumak",
+    "english": "to sleep",
+    "category": "Fiiller",
+    "example_tr": "Saat onda uyudum.",
+    "example_en": "I slept at ten o'clock."
+  },
+  {
+    "id": 249,
+    "turkish": "uyanmak",
+    "english": "to wake up",
+    "category": "Fiiller",
+    "example_tr": "Sabah altıda uyandım.",
+    "example_en": "I woke up at six in the morning."
+  },
+  {
+    "id": 250,
+    "turkish": "koşmak",
+    "english": "to run",
+    "category": "Fiiller",
+    "example_tr": "Sabah parkta koşuyorum.",
+    "example_en": "I run in the park in the morning."
+  },
+  {
+    "id": 251,
+    "turkish": "yürümek",
+    "english": "to walk",
+    "category": "Fiiller",
+    "example_tr": "İşe yürüyerek gidiyorum.",
+    "example_en": "I walk to work."
+  },
+  {
+    "id": 252,
+    "turkish": "yüzmek",
+    "english": "to swim",
+    "category": "Fiiller",
+    "example_tr": "Yazın denizde yüzüyorum.",
+    "example_en": "I swim in the sea in summer."
+  },
+  {
+    "id": 253,
+    "turkish": "oturmak",
+    "english": "to sit",
+    "category": "Fiiller",
+    "example_tr": "Kanepede oturuyorum.",
+    "example_en": "I am sitting on the sofa."
+  },
+  {
+    "id": 254,
+    "turkish": "kalkmak",
+    "english": "to stand up / to get up",
+    "category": "Fiiller",
+    "example_tr": "Sabah erken kalktım.",
+    "example_en": "I got up early in the morning."
+  },
+  {
+    "id": 255,
+    "turkish": "düşünmek",
+    "english": "to think",
+    "category": "Fiiller",
+    "example_tr": "Bunu düşünmem lazım.",
+    "example_en": "I need to think about this."
+  },
+  {
+    "id": 256,
+    "turkish": "hatırlamak",
+    "english": "to remember",
+    "category": "Fiiller",
+    "example_tr": "Onu hatırlamıyorum.",
+    "example_en": "I don't remember him."
+  },
+  {
+    "id": 257,
+    "turkish": "unutmak",
+    "english": "to forget",
+    "category": "Fiiller",
+    "example_tr": "Anahtarımı unuttum.",
+    "example_en": "I forgot my key."
+  },
+  {
+    "id": 258,
+    "turkish": "öğrenmek",
+    "english": "to learn",
+    "category": "Fiiller",
+    "example_tr": "Türkçe öğreniyorum.",
+    "example_en": "I am learning Turkish."
+  },
+  {
+    "id": 259,
+    "turkish": "öğretmek",
+    "english": "to teach",
+    "category": "Fiiller",
+    "example_tr": "İngilizce öğretiyorum.",
+    "example_en": "I teach English."
+  },
+  {
+    "id": 260,
+    "turkish": "denemek",
+    "english": "to try",
+    "category": "Fiiller",
+    "example_tr": "Yeni bir tarif denedim.",
+    "example_en": "I tried a new recipe."
+  },
+  {
+    "id": 261,
+    "turkish": "kazanmak",
+    "english": "to win / to earn",
+    "category": "Fiiller",
+    "example_tr": "Maçı kazandık.",
+    "example_en": "We won the match."
+  },
+  {
+    "id": 262,
+    "turkish": "seçmek",
+    "english": "to choose",
+    "category": "Fiiller",
+    "example_tr": "Hangi rengi seçtin?",
+    "example_en": "Which color did you choose?"
+  },
+  {
+    "id": 263,
+    "turkish": "kullanmak",
+    "english": "to use",
+    "category": "Fiiller",
+    "example_tr": "Bu uygulamayı kullanıyorum.",
+    "example_en": "I am using this app."
+  },
+  {
+    "id": 264,
+    "turkish": "taşımak",
+    "english": "to carry",
+    "category": "Fiiller",
+    "example_tr": "Ağır kutular taşıdım.",
+    "example_en": "I carried heavy boxes."
+  },
+  {
+    "id": 265,
+    "turkish": "göndermek",
+    "english": "to send",
+    "category": "Fiiller",
+    "example_tr": "Sana mesaj gönderdim.",
+    "example_en": "I sent you a message."
+  },
+  {
+    "id": 266,
+    "turkish": "göstermek",
+    "english": "to show",
+    "category": "Fiiller",
+    "example_tr": "Bana yolu göster.",
+    "example_en": "Show me the way."
+  },
+  {
+    "id": 267,
+    "turkish": "anlatmak",
+    "english": "to explain / to tell",
+    "category": "Fiiller",
+    "example_tr": "Bana anlat ne oldu.",
+    "example_en": "Tell me what happened."
+  },
+  {
+    "id": 268,
+    "turkish": "dinlenmek",
+    "english": "to rest",
+    "category": "Fiiller",
+    "example_tr": "Hafta sonu dinleneceğim.",
+    "example_en": "I will rest on the weekend."
+  },
+  {
+    "id": 269,
+    "turkish": "seyahat etmek",
+    "english": "to travel",
+    "category": "Fiiller",
+    "example_tr": "Avrupa'ya seyahat etmek istiyorum.",
+    "example_en": "I want to travel to Europe."
+  },
+  {
+    "id": 270,
+    "turkish": "dönmek",
+    "english": "to return / to turn",
+    "category": "Fiiller",
+    "example_tr": "Eve döndüm.",
+    "example_en": "I returned home."
+  },
+  {
+    "id": 271,
+    "turkish": "başarmak",
+    "english": "to succeed",
+    "category": "Fiiller",
+    "example_tr": "Sınavı başardım.",
+    "example_en": "I succeeded in the exam."
+  },
+  {
+    "id": 272,
+    "turkish": "kabul etmek",
+    "english": "to accept",
+    "category": "Fiiller",
+    "example_tr": "Teklifi kabul ettim.",
+    "example_en": "I accepted the offer."
+  },
+  {
+    "id": 273,
+    "turkish": "reddetmek",
+    "english": "to refuse / to reject",
+    "category": "Fiiller",
+    "example_tr": "Teklifi reddetti.",
+    "example_en": "She rejected the offer."
+  },
+  {
+    "id": 274,
+    "turkish": "kontrol etmek",
+    "english": "to check",
+    "category": "Fiiller",
+    "example_tr": "E-postalarımı kontrol ettim.",
+    "example_en": "I checked my emails."
+  },
+  {
+    "id": 275,
+    "turkish": "aramak",
+    "english": "to search / to call",
+    "category": "Fiiller",
+    "example_tr": "Seni aradım ama açmadın.",
+    "example_en": "I called you but you didn't answer."
+  },
+  {
+    "id": 276,
+    "turkish": "buluşmak",
+    "english": "to meet",
+    "category": "Fiiller",
+    "example_tr": "Yarın arkadaşımla buluşacağım.",
+    "example_en": "I will meet with my friend tomorrow."
+  },
+  {
+    "id": 277,
+    "turkish": "planlamak",
+    "english": "to plan",
+    "category": "Fiiller",
+    "example_tr": "Tatilimizi planladık.",
+    "example_en": "We planned our vacation."
+  },
+  {
+    "id": 278,
+    "turkish": "hazırlamak",
+    "english": "to prepare",
+    "category": "Fiiller",
+    "example_tr": "Sunum hazırladım.",
+    "example_en": "I prepared a presentation."
+  },
+  {
+    "id": 279,
+    "turkish": "başvurmak",
+    "english": "to apply",
+    "category": "Fiiller",
+    "example_tr": "İş ilanına başvurdum.",
+    "example_en": "I applied for the job posting."
+  },
+  {
+    "id": 280,
+    "turkish": "imzalamak",
+    "english": "to sign",
+    "category": "Fiiller",
+    "example_tr": "Sözleşmeyi imzaladım.",
+    "example_en": "I signed the contract."
+  },
+  {
+    "id": 281,
+    "turkish": "değiştirmek",
+    "english": "to change",
+    "category": "Fiiller",
+    "example_tr": "Planı değiştirdim.",
+    "example_en": "I changed the plan."
+  },
+  {
+    "id": 282,
+    "turkish": "geliştirmek",
+    "english": "to improve / to develop",
+    "category": "Fiiller",
+    "example_tr": "İngilizcenimi geliştiriyorum.",
+    "example_en": "I am improving my English."
+  },
+  {
+    "id": 283,
+    "turkish": "korumak",
+    "english": "to protect",
+    "category": "Fiiller",
+    "example_tr": "Doğayı korumamız gerekiyor.",
+    "example_en": "We need to protect nature."
+  }
+]

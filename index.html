@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Türkçe — Learn Turkish Daily</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+
+  <!-- ════════════════════════════════════════════════════
+       STYLES
+  ════════════════════════════════════════════════════ -->
+  <style>
+    /* ── TOKENS ─────────────────────────────────────────── */
+    :root {
+      --cream:        #f6f1e9;
+      --cream-dark:   #ede6d6;
+      --sand:         #d8ccb3;
+      --terracotta:   #c4614a;
+      --terra-light:  #e07f68;
+      --terra-dark:   #9c3e2b;
+      --charcoal:     #2a2118;
+      --ink:          #4b3e31;
+      --muted:        #8c7d6e;
+      --learned-bg:   #edf7ed;
+      --learned-bdr:  #81c784;
+      --learned-txt:  #388e3c;
+      --radius:       20px;
+      --shadow:       0 6px 32px rgba(42,33,24,.10);
+      --shadow-hover: 0 14px 52px rgba(42,33,24,.18);
+      --ease:         cubic-bezier(.4,0,.2,1);
+    }
+
+    /* ── RESET ──────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    button { font-family: inherit; cursor: pointer; }
+
+    /* ── BODY ───────────────────────────────────────────── */
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--charcoal);
+      min-height: 100vh;
+      padding-bottom: 80px;
+    }
+
+    /* ── HEADER ─────────────────────────────────────────── */
+    header {
+      background: var(--terracotta);
+      color: #fff;
+      padding: 38px 24px 30px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {                          /* subtle radial glow */
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 65% -10%, rgba(255,255,255,.14) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    header::after {                           /* decorative bottom wave */
+      content: '';
+      position: absolute; bottom: -1px; left: 0; right: 0;
+      height: 24px;
+      background: var(--cream);
+      clip-path: ellipse(52% 100% at 50% 100%);
+    }
+    .header-flag { font-size: 2rem; letter-spacing: 4px; opacity: .8; margin-bottom: 6px; }
+    header h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.8rem, 5vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -.5px;
+      position: relative;
+    }
+    header h1 em {
+      font-style: italic;
+      font-weight: 400;
+      opacity: .8;
+      font-size: .62em;
+    }
+    header .subtitle {
+      margin-top: 5px;
+      font-size: .87rem;
+      font-weight: 300;
+      opacity: .75;
+      letter-spacing: .4px;
+    }
+    .date-pill {
+      display: inline-block;
+      margin-top: 14px;
+      background: rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 100px;
+      padding: 4px 16px;
+      font-size: .76rem;
+      font-weight: 500;
+      letter-spacing: .3px;
+    }
+
+    /* ── MAIN ───────────────────────────────────────────── */
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* ── STATS ROW ──────────────────────────────────────── */
+    .stats-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-top: 22px;
+    }
+    #progressInfo {
+      font-size: .82rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    #learnedBadge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .8rem;
+      font-weight: 600;
+      color: var(--learned-txt);
+      background: var(--learned-bg);
+      border: 1px solid var(--learned-bdr);
+      border-radius: 100px;
+      padding: 4px 14px;
+    }
+    .pulse {
+      width: 7px; height: 7px;
+      background: var(--learned-txt);
+      border-radius: 50%;
+      animation: pulseAnim 2s infinite;
+    }
+    @keyframes pulseAnim {
+      0%,100% { opacity:1; transform:scale(1); }
+      50%      { opacity:.4; transform:scale(.65); }
+    }
+
+    /* ── PROGRESS BAR ───────────────────────────────────── */
+    .progress-track {
+      width: 100%; height: 4px;
+      background: var(--sand);
+      border-radius: 10px;
+      margin-top: 10px;
+      overflow: hidden;
+    }
+    #progressFill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--terracotta), var(--terra-light));
+      border-radius: 10px;
+      transition: width .5s var(--ease);
+    }
+
+    /* ── NAV BUTTONS ────────────────────────────────────── */
+    .nav-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .btn {
+      font-size: .84rem;
+      font-weight: 600;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 100px;
+      transition: transform .25s var(--ease), box-shadow .25s var(--ease), background .2s;
+      letter-spacing: .15px;
+    }
+    .btn:active { transform: scale(.96) !important; }
+    .btn:disabled { opacity: .38; pointer-events: none; }
+
+    .btn-primary { background: var(--terracotta); color: #fff; }
+    .btn-primary:hover {
+      background: var(--terra-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(196,97,74,.4);
+    }
+    .btn-secondary {
+      background: #fff;
+      color: var(--charcoal);
+      border: 1.5px solid var(--sand);
+    }
+    .btn-secondary:hover {
+      background: var(--cream-dark);
+      border-color: var(--terracotta);
+      color: var(--terracotta);
+      transform: translateY(-2px);
+    }
+
+    /* ── CATEGORY CHIPS ─────────────────────────────────── */
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    .chip {
+      font-size: .74rem;
+      font-weight: 500;
+      padding: 5px 14px;
+      border-radius: 100px;
+      border: 1.5px solid var(--sand);
+      background: transparent;
+      color: var(--muted);
+      transition: .2s;
+    }
+    .chip.active, .chip:hover {
+      background: var(--charcoal);
+      border-color: var(--charcoal);
+      color: #fff;
+    }
+
+    /* ── CARDS GRID ─────────────────────────────────────── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    /* ── WORD CARD ──────────────────────────────────────── */
+    .word-card {
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 26px 22px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1.5px solid transparent;
+      position: relative;
+      transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .2s;
+      animation: cardIn .4s var(--ease) both;
+    }
+    .word-card:nth-child(2) { animation-delay: .07s; }
+    .word-card:nth-child(3) { animation-delay: .14s; }
+    @keyframes cardIn {
+      from { opacity:0; transform:translateY(18px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+    .word-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+      border-color: var(--sand);
+    }
+    .word-card.learned {
+      background: var(--learned-bg);
+      border-color: var(--learned-bdr);
+    }
+
+    /* Today badge */
+    .today-badge {
+      position: absolute;
+      top: -9px; right: 16px;
+      background: var(--terracotta);
+      color: #fff;
+      font-size: .63rem;
+      font-weight: 700;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 100px;
+    }
+
+    /* Card text */
+    .card-category {
+      font-size: .67rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--terracotta);
+    }
+    .card-word {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.65rem, 4vw, 2rem);
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--charcoal);
+    }
+    .word-card.learned .card-word { color: var(--learned-txt); }
+
+    /* Translation reveal */
+    .translation-block {
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height .4s var(--ease), opacity .3s ease;
+    }
+    .translation-block.visible {
+      max-height: 220px;
+      opacity: 1;
+    }
+    .card-english {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--ink);
+    }
+    .examples {
+      margin-top: 8px;
+      padding-top: 10px;
+      border-top: 1px solid var(--cream-dark);
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .example-line {
+      font-size: .79rem;
+      line-height: 1.55;
+    }
+    .lang-tag {
+      display: inline-block;
+      font-size: .61rem;
+      font-weight: 700;
+      letter-spacing: .4px;
+      text-transform: uppercase;
+      color: var(--muted);
+      width: 22px;
+    }
+    .example-tr { color: var(--charcoal); font-style: italic; }
+    .example-en { color: var(--muted); }
+
+    /* Card action buttons */
+    .card-actions { display: flex; gap: 7px; flex-wrap: wrap; }
+    .btn-sm {
+      font-size: .74rem;
+      font-weight: 600;
+      padding: 7px 15px;
+      border-radius: 100px;
+      border: 1.5px solid var(--sand);
+      background: transparent;
+      color: var(--ink);
+      transition: .2s;
+    }
+    .btn-sm:hover {
+      border-color: var(--terracotta);
+      color: var(--terracotta);
+      background: rgba(196,97,74,.06);
+    }
+    .btn-learn { color: var(--muted); }
+    .btn-learn:hover {
+      background: var(--learned-bg);
+      border-color: var(--learned-bdr);
+      color: var(--learned-txt);
+    }
+    .word-card.learned .btn-learn {
+      background: var(--learned-bg);
+      border-color: var(--learned-bdr);
+      color: var(--learned-txt);
+    }
+
+    /* ── LOADING STATE ──────────────────────────────────── */
+    #loadingState {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--sand);
+      border-top-color: var(--terracotta);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── ERROR STATE ─────────────────────────────────────── */
+    #errorState {
+      display: none;
+      background: #fff3f0;
+      border: 1.5px solid #f8a49a;
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      margin-top: 24px;
+      text-align: center;
+      color: var(--terra-dark);
+    }
+    #errorState .err-icon { font-size: 2rem; margin-bottom: 8px; }
+    #errorState code {
+      display: inline-block;
+      margin-top: 8px;
+      background: rgba(196,97,74,.1);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: .82rem;
+      color: var(--terra-dark);
+    }
+
+    /* ── SCROLL-TO-TOP ──────────────────────────────────── */
+    #scrollTop {
+      position: fixed;
+      bottom: 24px; right: 20px;
+      width: 42px; height: 42px;
+      border-radius: 50%;
+      background: var(--terracotta);
+      color: #fff;
+      border: none;
+      font-size: 1rem;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(196,97,74,.5);
+      transition: .25s;
+      z-index: 99;
+    }
+    #scrollTop.show { display: flex; }
+    #scrollTop:hover { background: var(--terra-dark); transform: translateY(-3px); }
+
+    /* ── RESPONSIVE ─────────────────────────────────────── */
+    @media (max-width: 500px) {
+      .cards-grid { grid-template-columns: 1fr; }
+      .nav-controls { gap: 8px; }
+      .btn { font-size: .79rem; padding: 9px 15px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ HEADER ═════════════════════════════════════════════ -->
+<header>
+  <div class="header-flag">🇹🇷</div>
+  <h1>Türkçe <em>— Learn Turkish Daily</em></h1>
+  <p class="subtitle">300 essential words · English speakers edition</p>
+  <div class="date-pill" id="datePill"></div>
+</header>
+
+<!-- ══ MAIN ═══════════════════════════════════════════════ -->
+<main>
+
+  <!-- Loading skeleton -->
+  <div id="loadingState">
+    <div class="spinner"></div>
+    <p>Loading vocabulary…</p>
+  </div>
+
+  <!-- Error state (shown if JSON fails to load) -->
+  <div id="errorState">
+    <div class="err-icon">⚠️</div>
+    <strong>Could not load vocabulary data.</strong><br>
+    Make sure <code>turkish_vocabulary.json</code> is in the same folder as this HTML file
+    and that you're opening it through a web server (not directly as a file://).<br><br>
+    <small>Tip: run <code>npx serve .</code> or use VS Code Live Server.</small>
+  </div>
+
+  <!-- App UI — hidden until data loads -->
+  <div id="appUI" style="display:none">
+
+    <!-- Stats row -->
+    <div class="stats-row">
+      <div id="progressInfo">Words 1–3</div>
+      <div id="learnedBadge"><span class="pulse"></span><span id="learnedNum">0</span> learned</div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-track">
+      <div id="progressFill" style="width:0%"></div>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="nav-controls">
+      <button class="btn btn-primary"   id="btnToday">📅 Today's Words</button>
+      <button class="btn btn-secondary" id="btnPrev">← Previous 3</button>
+      <button class="btn btn-secondary" id="btnNext">Next 3 →</button>
+      <button class="btn btn-secondary" id="btnRevealAll">👁 Show All Translations</button>
+    </div>
+
+    <!-- Category filter chips -->
+    <div class="filter-row" id="filterRow"></div>
+
+    <!-- Word cards -->
+    <div class="cards-grid" id="cardsGrid"></div>
+
+  </div><!-- /appUI -->
+</main>
+
+<!-- Scroll to top -->
+<button id="scrollTop" title="Back to top">↑</button>
+
+
+<!-- ══════════════════════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════════════════════ -->
+<script>
+// ── Helpers ──────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+
+// ── State ────────────────────────────────────────────────
+let WORDS        = [];        // full dataset loaded from JSON
+let currentIndex = 0;         // first card index currently shown
+let allVisible   = false;     // "Show All Translations" toggle
+let activeCategory = 'All';   // category filter
+
+// localStorage keys
+const LS_INDEX   = 'trk_index';
+const LS_LEARNED = 'trk_learned';
+const LS_DATE    = 'trk_date';
+
+// ── Derived state helpers ─────────────────────────────────
+function learnedSet() {
+  return new Set(JSON.parse(localStorage.getItem(LS_LEARNED) || '[]'));
+}
+function saveLearnedSet(s) {
+  localStorage.setItem(LS_LEARNED, JSON.stringify([...s]));
+}
+
+// ── Daily word selection ─────────────────────────────────
+// Based on today's date string → deterministic index for the day
+function todayIndex(total) {
+  const d   = new Date();
+  const key = `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
+  let hash  = 0;
+  for (const c of key) hash = (hash * 31 + c.charCodeAt(0)) % total;
+  return Math.max(0, hash - (hash % 3)); // align to multiple of 3
+}
+
+// ── Date pill ────────────────────────────────────────────
+function formatDate() {
+  return new Date().toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+}
+
+// ── Category list ────────────────────────────────────────
+function buildCategories() {
+  const cats = ['All', ...new Set(WORDS.map(w => w.category))];
+  const row  = $('filterRow');
+  row.innerHTML = '';
+  cats.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'chip' + (cat === activeCategory ? ' active' : '');
+    btn.textContent = cat;
+    btn.addEventListener('click', () => {
+      activeCategory = cat;
+      currentIndex = 0;
+      renderCards();
+      buildCategories();
+    });
+    row.appendChild(btn);
+  });
+}
+
+// ── Filtered words ───────────────────────────────────────
+function filteredWords() {
+  return activeCategory === 'All'
+    ? WORDS
+    : WORDS.filter(w => w.category === activeCategory);
+}
+
+// ── Render cards ─────────────────────────────────────────
+function renderCards() {
+  const words   = filteredWords();
+  const total   = words.length;
+  const slice   = words.slice(currentIndex, currentIndex + 3);
+  const learned = learnedSet();
+
+  // Determine today's indices (in the FULL dataset) for badge
+  const todayStart  = todayIndex(WORDS.length);
+  const todayIds    = new Set(WORDS.slice(todayStart, todayStart + 3).map(w => w.id));
+
+  const grid = $('cardsGrid');
+  grid.innerHTML = '';
+
+  slice.forEach((word, i) => {
+    const isLearned = learned.has(word.id);
+    const isToday   = todayIds.has(word.id);
+
+    const card = document.createElement('div');
+    card.className = 'word-card' + (isLearned ? ' learned' : '');
+    card.dataset.id = word.id;
+
+    card.innerHTML = `
+      ${isToday ? '<span class="today-badge">⭐ Today</span>' : ''}
+      <div class="card-category">${word.category}</div>
+      <div class="card-word">${word.turkish}</div>
+
+      <div class="card-actions">
+        <button class="btn-sm btn-toggle">👁 Show translation</button>
+        <button class="btn-sm btn-learn">${isLearned ? '✓ Learned' : '+ Mark learned'}</button>
+      </div>
+
+      <div class="translation-block${allVisible ? ' visible' : ''}">
+        <div class="card-english">${word.english}</div>
+        <div class="examples">
+          <div class="example-line example-tr">
+            <span class="lang-tag">TR</span> ${word.example_tr}
+          </div>
+          <div class="example-line example-en">
+            <span class="lang-tag">EN</span> ${word.example_en}
+          </div>
+        </div>
+      </div>
+    `;
+
+    // Toggle translation
+    const toggleBtn      = card.querySelector('.btn-toggle');
+    const translationDiv = card.querySelector('.translation-block');
+    toggleBtn.addEventListener('click', () => {
+      const shown = translationDiv.classList.toggle('visible');
+      toggleBtn.textContent = shown ? '🙈 Hide translation' : '👁 Show translation';
+    });
+    if (allVisible) toggleBtn.textContent = '🙈 Hide translation';
+
+    // Mark as learned
+    card.querySelector('.btn-learn').addEventListener('click', () => {
+      const s = learnedSet();
+      s.has(word.id) ? s.delete(word.id) : s.add(word.id);
+      saveLearnedSet(s);
+      renderCards();
+      updateStats();
+    });
+
+    grid.appendChild(card);
+  });
+
+  updateStats();
+}
+
+// ── Stats + progress bar ─────────────────────────────────
+function updateStats() {
+  const words   = filteredWords();
+  const total   = words.length;
+  const from    = currentIndex + 1;
+  const to      = Math.min(currentIndex + 3, total);
+  const learned = learnedSet();
+
+  $('progressInfo').textContent = `Words ${from}–${to} of ${total}`;
+  $('learnedNum').textContent   = learned.size;
+  $('progressFill').style.width = `${(to / WORDS.length) * 100}%`;
+
+  $('btnPrev').disabled = currentIndex === 0;
+  $('btnNext').disabled = currentIndex + 3 >= total;
+}
+
+// ── Event listeners ──────────────────────────────────────
+function attachControls() {
+  // Today's words
+  $('btnToday').addEventListener('click', () => {
+    activeCategory = 'All';
+    currentIndex = todayIndex(WORDS.length);
+    localStorage.setItem(LS_INDEX, currentIndex);
+    buildCategories();
+    renderCards();
+  });
+
+  // Previous 3
+  $('btnPrev').addEventListener('click', () => {
+    currentIndex = Math.max(0, currentIndex - 3);
+    localStorage.setItem(LS_INDEX, currentIndex);
+    renderCards();
+    scrollToCards();
+  });
+
+  // Next 3
+  $('btnNext').addEventListener('click', () => {
+    const words = filteredWords();
+    currentIndex = Math.min(currentIndex + 3, words.length - 3);
+    localStorage.setItem(LS_INDEX, currentIndex);
+    renderCards();
+    scrollToCards();
+  });
+
+  // Reveal / hide all
+  $('btnRevealAll').addEventListener('click', () => {
+    allVisible = !allVisible;
+    $('btnRevealAll').textContent = allVisible ? '🙈 Hide All' : '👁 Show All Translations';
+    renderCards();
+  });
+
+  // Scroll to top
+  const scrollBtn = $('scrollTop');
+  window.addEventListener('scroll', () => {
+    scrollBtn.classList.toggle('show', window.scrollY > 300);
+  });
+  scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+function scrollToCards() {
+  $('cardsGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ── Boot: fetch JSON ──────────────────────────────────────
+async function init() {
+  // Date pill
+  $('datePill').textContent = formatDate();
+
+  try {
+    const res = await fetch('turkish_vocabulary.json');
+
+    // If the server returned a non-OK status
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    WORDS = await res.json();
+
+    if (!Array.isArray(WORDS) || WORDS.length === 0) throw new Error('Empty or invalid JSON');
+
+    // Restore or compute starting index
+    const savedDate  = localStorage.getItem(LS_DATE);
+    const today      = new Date().toDateString();
+    const savedIndex = parseInt(localStorage.getItem(LS_INDEX) || '-1', 10);
+
+    if (savedDate !== today) {
+      // New day → jump to today's words, reset stored date
+      currentIndex = todayIndex(WORDS.length);
+      localStorage.setItem(LS_DATE,  today);
+      localStorage.setItem(LS_INDEX, currentIndex);
+    } else {
+      currentIndex = savedIndex >= 0 ? savedIndex : todayIndex(WORDS.length);
+    }
+
+    // Show UI
+    $('loadingState').style.display = 'none';
+    $('appUI').style.display        = 'block';
+
+    buildCategories();
+    renderCards();
+    attachControls();
+
+  } catch (err) {
+    console.error('Failed to load vocabulary:', err);
+    $('loadingState').style.display = 'none';
+    $('errorState').style.display   = 'block';
+  }
+}
+
+// Start
+init();
+</script>
+
+</body>
+</html>
